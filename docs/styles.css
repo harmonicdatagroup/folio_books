@@ -1,0 +1,68 @@
+.big-plot {
+
+  width: 1100px;
+  padding-right: 0;
+  margin-right: 0;
+
+}
+
+.big-plot .html-widget {
+  height: 100%;
+  width: 100%;
+}
+/* Ensure ggiraph tooltips appear above all elements */
+.ggiraph-tooltip {
+  z-index: 9999 !important;
+  pointer-events: none;
+}
+
+/* Prevent DT container from clipping ggiraph tooltips */
+#table-container {
+  position: relative;
+  top: 0;
+  width: 100%;
+  max-height: 80vh;
+  overflow-y: visible;
+  padding-bottom: 1em;
+}
+
+/* Fix DT hover/cursor leaking into ggiraph */
+.dataTables_wrapper {
+  pointer-events: auto;
+}
+
+.dataTables_wrapper ~ * {
+  pointer-events: auto;
+}
+
+table.dataTable tbody tr:hover {
+  cursor: default;
+}
+
+table.dataTable {
+  pointer-events: auto;
+}
+
+#table-container {
+  pointer-events: auto;
+}
+
+#table-container ~ * {
+  pointer-events: auto;
+}
+
+/* Force default cursor outside DT */
+body {
+  cursor: default !important;
+}
+
+/* Layering fix: ensure ggiraph plot is above DT */
+.big-plot {
+  z-index: 10;
+  position: relative;
+}
+
+div.dt-container {
+  z-index: 1;
+  position: relative;
+}
