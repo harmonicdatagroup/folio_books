@@ -5,3 +5,5 @@
 !.gitignore
 !docs/
 !docs/**
+
+/.quarto/
