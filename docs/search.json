@@ -11,7 +11,7 @@
     "href": "article_closeread.html",
     "title": "Top 100 Books",
     "section": "",
-    "text": "Some text here to explain books. There is lots to scroll.\n\n\n\n\nthen\n\n\n\n\nwe\n\n\n\n\nhave\n\n\n\n\nthen more text\n\n\n\n\n\n\nthen\n\n\n\n\nhover over points to\nreveal the book title and author\n\n\n\n\nmore text scrolling by"
+    "text": "In 2024 The Economist newspaper published the titles and average time to read each of the 500 top-rated books in english 1.\nTheir data journalists combined two datasets,\nHere, we make the key graphic interactive, and explore results using ‘scrolly-telling’ via the R closeread package.\nScroll down to continue!"
   },
   {
     "objectID": "article_closeread.html#introduction",
@@ -33,5 +33,19 @@
     "title": "Top 100 Books",
     "section": "",
     "text": "Some text here"
+  },
+  {
+    "objectID": "article_closeread.html#is-your-favourite-book-in-the-top-500",
+    "href": "article_closeread.html#is-your-favourite-book-in-the-top-500",
+    "title": "Top 100 Books",
+    "section": "Is your favourite book in the top 500?",
+    "text": "Is your favourite book in the top 500?"
+  },
+  {
+    "objectID": "article_closeread.html#footnotes",
+    "href": "article_closeread.html#footnotes",
+    "title": "Top 100 Books",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThe Economist, How-long-would-it-take-to-read-the-greatest-books-of-all-time↩︎\nShane Sherman, thegreatestbooks.org↩︎\nHarry Tong, howlongtoread.com↩︎"
   }
 ]
